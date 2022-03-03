@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+
+}
+h1,h2 {
+    text-align: center;
+    line-height: 2;
+    font-weight: 300;
+}
+.subtitle {
+    text-transform: lowercase;
+}
+.container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.subtitle {
+    margin: 100px 0;
+
+}
+
+button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px 20px;
+    border: 2px solid #e0dede;
+    background-color: #fff;
+    font: inherit;
+    color: inherit;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+button:hover {
+    background-color: #cef5de;
+    cursor: pointer;
+    transition: 1s;
+}
+#hex-colors h1,h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    -ms-animation: colorchange 3s infinite alternate;
+    -moz-animation: colorchange 3s infinite alternate;
+    -o-animation: colorchange 3s infinite alternate;
+    animation: colorchange 3s infinite alternate;
+}
+
+@-ms-keyframes colorchange{
+    0% {
+        color: #ffffff;
+    }
+
+    20% {
+        color: #cccccc;
+    }
+
+    40% {
+        color: #999999;
+    }
+
+    60% {
+        color: #666666;
+    }
+
+    80% {
+        color: #333333;
+    }
+
+    100% {
+        color: #000000;
+    }
+}
+
+@-moz-keyframes colorchange{
+    0% {
+        color: #ffffff;
+    }
+
+    20% {
+        color: #cccccc;
+    }
+
+    40% {
+        color: #999999;
+    }
+
+    60% {
+        color: #666666;
+    }
+
+    80% {
+        color: #333333;
+    }
+
+    100% {
+        color: #000000;
+    }
+}
+
+@-o-keyframes colorchange{
+    0% {
+        color: #ffffff;
+    }
+
+    20% {
+        color: #cccccc;
+    }
+
+    40% {
+        color: #999999;
+    }
+
+    60% {
+        color: #666666;
+    }
+
+    80% {
+        color: #333333;
+    }
+
+    100% {
+        color: #000000;
+    }
+}
+
+@keyframes colorchange {
+    0% {
+        color: #ffffff;
+    }
+
+    20% {
+        color: #cccccc;
+    }
+
+    40% {
+        color: #999999;
+    }
+
+    60% {
+        color: #666666;
+    }
+
+    80% {
+        color: #333333;
+    }
+
+    100% {
+        color: #ffffff;
+    }
+}
+
